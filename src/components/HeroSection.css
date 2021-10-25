@@ -1,0 +1,189 @@
+.hero{
+    background: #fff;
+    height: 110vh;
+    position: relative;
+}
+
+.shape__top{
+    width: 100%;
+    position: relative;
+}
+
+.shape__one{
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    height: 17vh;
+    margin-top: -3rem;
+    top: 0;
+}
+
+.shape__two{
+    width: 100%;
+    max-height: 18vh;
+    z-index: 99;
+    bottom: 0;
+    position: absolute;
+    margin-bottom: auto;
+    display: flex;
+}
+.shape__bottom{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4.4rem;
+}
+.hero__container{
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.main__hero{
+    background: url("./images/HeroBackGround.png") center center/cover no-repeat;
+    width: 100%;
+    display: flex;
+    height: 110vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+}
+
+.head__lines{
+    font-weight: bold;
+    color: #deb37e;
+    position: absolute;
+    left: 0;
+    display: block;
+    justify-content: start;
+    text-align: start;
+    font-size: 33px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    text-shadow: 0px 5px 5px rgba(84, 82, 79, 0.22);
+    letter-spacing: 2px;
+    max-width: 1800px;
+}
+.head__lines p{
+    color: rgb(84, 82, 79);
+    font-size: 22px;
+    text-shadow: none;
+    font-weight: 700;
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.readmore{
+    color: rgb(84, 82, 79);
+    font-size: 22px;
+    width: 100%;
+    outline: none;
+    margin-top: 3rem;
+    
+}
+
+.readmore button{
+    width: 15vw;
+    height: 8vh;
+    max-height: 8vh;
+    border-radius: 20px;
+    border: 1px solid #fefdfd;
+    color: rgb(84, 82, 79);
+    background: #fff;
+    outline: none;
+    font-weight: 1000;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow: none;
+}
+
+.readmore button:hover{
+    background: rgb(222, 179, 126);
+    border: 1px solid rgb(222, 179, 126);
+    transition: 0.5s all ease-in-out;
+}
+
+
+.info{
+    width: 50%;
+    text-align: start;
+    align-items: center;
+    justify-content: start;
+    margin-top: 2rem;
+}
+
+.info p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:960px) {
+ .hero__container{
+     position: relative;
+     width: 100%;
+ }
+ .main__hero{
+     width: 100%;
+     height: 95vh auto;
+ }
+ .shape__one{
+     width: 100%;
+     height: 8vh;
+     margin-top: 0.3rem;
+     margin: 0 auto;
+ }
+ .shape__top{
+    width: 100%;
+    position: relative;
+    margin-top: 2px;
+}
+
+.shape__bottom{
+    margin-top: auto;
+    position: relative;
+}
+.head__lines{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 4rem;
+    top: auto;
+    height: 90vh;
+    display: block;
+}
+.head__lines p{
+    width: 100%;
+    color: #aeaeae;
+    margin-top: 2rem;
+}
+.readmore button{
+    width: 40vw;
+    min-height: 8vh;
+    font-size: 13px;
+    margin-top: 2rem;
+    margin: 0 auto;
+}
+.info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+}

@@ -1,0 +1,303 @@
+.plans{
+    position: relative;
+    display: block;
+    width: 100%;
+   
+}
+.plans-container{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all ease-in-out;
+    overflow: hidden;
+}
+.first-content{
+    justify-content: center;
+    align-items: center;
+    background: #7f7770;
+    width: 100%;
+    display: flex;
+    color: #fff;
+    
+}
+.plan-text{
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    width: 100%;
+    max-width: 2600px;
+    height: 60vh;
+    margin-left: 3rem;
+    max-height: 100vh;
+    letter-spacing:1px;
+    position: relative;
+    display: block;
+}
+.plan-text h1{
+    width: 80%;
+    min-width: 10vw;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    position: relative;
+    display: inline-block;
+    font-size: 42px;
+    margin-right: 2rem;
+}
+.plan-text p {
+    width: 40vw;
+    width: 500px;
+    justify-content: start;
+    text-align: start;
+    display: block;
+    margin-top: 2rem;
+}
+.planbutton{
+    display: block;
+    position: relative;
+    margin-top: 4rem;;
+}
+.planbutton p{
+    display: inline-block;
+    background: #deb37e;
+    padding: 0.6rem 2.5rem;
+    margin-top: -1rem;
+    width: 10vw;
+    max-width: 120px;
+    border-radius: 20px;
+    font-size: 17px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+.first-plan{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    justify-content: start;
+    align-items: flex-start;
+    display: block;
+}
+.second-content{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+    position: relative;
+    background: #deb37e;
+}
+.second-plan{
+    justify-content: end;
+    align-items: flex-end;
+    position: relative;
+    width: 51.8%;
+    max-width: 2548px;
+    height: 120vh;
+    display: block;
+}
+.secondry-plan-text{
+    position: relative;
+    display: block;
+    height: 90vh;
+    width: 50%;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    margin-left: 8rem;
+    color: #fff;
+}
+.secondry-plan-text h1{
+    font-size: 45px;
+}
+.secondry-plan-text p{
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    display: inline-block;
+    width: 35vw;
+    max-width: 350px;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-size: 15px;
+}
+.secondry-planbutton {
+    display: block;
+    padding: 0.6rem 2.5rem;
+    background: #e2a355;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 10vw;
+    max-width: 120px;
+    border-radius: 20px;
+    font-size: 17px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+.formGroup{
+    width: 100%;
+    position: relative;
+    height: 30vh;
+    background:#000;
+}
+@media screen and (max-width: 960px){
+    .plans-container{
+        position: relative;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .first-content{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-plan{
+        width: 40%;
+        min-width: 51%;
+        position: relative;
+        display: block;
+        margin-left: 15rem;
+        height: 45vh;
+        min-height: 300px;
+        min-width: 45vh;
+    }
+    .plan-text{
+        font-size: 12px;
+        width: auto;
+        min-width: 100%;
+        height: auto;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        display: inline-block;
+        position: relative;
+        margin-right: 10rem;
+    }
+    .plan-text p{
+        max-width: 170px;
+        justify-content: start;
+        align-items: flex-start;
+        text-align: start;
+        position: relative;
+        display: block;
+        margin-top: 5px;
+        margin-right: 9rem;
+        font-size: 10px;
+        margin-left: -2rem;
+    }
+    .plan-text h1{
+        font-size: 18px;
+        width: 100px;
+        display: block;
+        justify-content: start;
+        text-align: start;
+        align-self: start;
+        margin-left: -2rem;
+    }
+    .planbutton {
+        display: block;
+        position: relative;
+        margin-top: 1rem;
+        justify-content: center;
+        text-align: center;
+        width: 43vw;
+    }
+    .planbutton p{
+        padding: 0.6rem 1rem;
+        font-size: 10px;
+        width: 50%;
+        min-width: 60%;
+        text-align: center;
+        justify-content: center;
+    }
+    .second-content{
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-plan{
+        width: 100%;
+        position: relative;
+        display: block;
+        height: auto;
+    }
+    .secondry-plan-text{
+        position: relative;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 100%;
+        margin-left: 12rem;
+        justify-content: start;
+        align-items: flex-start;
+        text-align: start;
+        color: #fff;
+    }
+    .secondry-plan-text p {
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        display: inline-block;
+        width: 30vw;
+        max-width: 350px;
+        font-weight: 400;
+        font-size: 7px;
+        margin: 0 auto;
+        margin-left: 1rem;
+        margin-top: 5px;
+        margin-right: 3rem;
+
+    }
+    .secondry-plan-text h1{
+        font-size: 18px;
+        width: 100px;
+        margin: 0 auto;
+        display: block;
+        margin-right: 3.8rem;
+ 
+    }
+    .secondry-planbutton{
+        font-size: 1px;
+        justify-content: center;
+        text-align: center;
+        width: 60%;
+        padding: 0.6rem 1rem;
+        top: 13px;
+        margin: 0 auto;
+        margin-right: 2rem;
+        height: 2vh;
+    }
+    .secondry-planbutton span{
+        display: inline-block;
+        position: relative;
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        margin-top: 3px;
+        margin: auto;
+    }
+}
+
+
+

@@ -1,0 +1,117 @@
+.main-carousel{
+    height: 80vh;
+    position: relative;
+    display: block;
+    transition: 0.3s all ease-in;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 8rem;
+}
+.carousel-img{
+    width: 80px;
+    max-width: 80px;
+    border: 2px solid #665e59;
+    border-radius: 5rem;
+    height: 80px;
+    max-height: 80px;
+    position: relative;
+}
+.person-name{
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #7f7770;
+}
+.carousel-text{
+    width: 50%;
+    margin-top: 2rem;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #7f7770;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    height: 20vh;
+}
+.carousel-icons.right{
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    margin-right: 8rem;
+    cursor: pointer;
+    color: #7f7770;
+    outline: none;
+}
+.custom-dot-list-style{
+    display: flex;
+    height: auto;
+}
+.react-multi-carousel-dot--active button{
+    background: #000;
+}
+.carousel-icons.right:hover{
+    color: #7f7770;
+    transition: 0.3s all ease-out;
+    transition: 0 0;
+    transform: scale( 1, 1);
+    border: 2px solid #eabc82;
+    border-radius: 5rem;
+    background-color: #eabc82;
+}
+.carousel-icons.left{
+    display: block;
+    position: absolute;
+    left: 0;
+    font-size: 40px;
+    margin-left: 8rem;
+    cursor: pointer;
+    color: #7f7770;
+}
+.carousel-icons.left:hover{
+    color: #7f7770;
+    transition: 0.3s all ease-out;
+    transition: 0 0;
+    transform: scale( 1, 1);
+    border: 2px solid #eabc82;
+    border-radius: 5rem;
+    background-color: #eabc82;
+}
+
+.shadow-carousel{
+    transform: rotate(180deg);
+    position: absolute;
+    width: 50%;
+    top: 0;
+    margin-left: 5rem;
+    height: 80vh;
+    z-index: -1;
+}
+
+@media screen and (max-width: 960px){
+    .shadow-carousel{
+       height: 25vh;
+       margin: 0 auto;
+       margin-top: 10rem;
+       
+    }
+    .main-carousel{
+        height: 60vh;
+        margin: 0 auto;
+        margin-top: -10rem;
+    }
+    .carousel-text{
+        width: 100%;
+        min-height: 25vh;
+    }
+    .custom-dot-list-style{
+        display: flex;
+        height: auto;
+    }
+}

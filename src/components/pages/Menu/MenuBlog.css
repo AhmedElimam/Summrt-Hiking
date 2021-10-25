@@ -1,0 +1,195 @@
+.menu{
+    background: #fff;
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.menu__container{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    transition: 0.3s all ease-in-out;
+}
+
+.head__titles{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    font-size: 22px;
+    color: #eabc82;
+    letter-spacing: 2px;
+}
+.head__titles h1{
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.head__titles p{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    color: rgb(84, 82, 79);
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.card-holder{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.card{
+    width: 17rem;
+    background-color:#7f7770 ;
+    color: #fff;
+    margin: auto;
+}
+.card-name{
+    font-size: 20px;
+}
+.card-content p{
+    margin-top: 0.6rem;
+}
+.card__img{
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+.card-content{
+    padding: 1rem;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: start;
+    letter-spacing: 1px;
+}
+.card__read-more{
+    display: block;
+    opacity: 0;
+    height: 0;
+    transition: all 0.5s;
+}
+.card__read-more--open{
+    display: block;
+    opacity: 1;
+    height: 11rem;
+    transition: all 0.5s;
+}
+.read-more-btn{
+    display: inline-block;
+    color: #7f7770;
+    background: #eee;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 10px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.read-more-btn:hover{
+    background-color: #fff;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+    transition: all 0.5s ease-in-out;
+}
+.shadow{
+    position: absolute;
+    transform: rotate(-17deg);
+    left: 0;
+    height: 0 auto;
+    margin-left: -8rem;
+    max-width: 620px;
+}
+
+.show-container{
+    display: block;
+    position: relative;
+    margin-top: 4rem;
+    height: 30vh;
+}
+.show-btn{
+    display: inline-block;
+    color: #eee;
+    background: #7f7770;
+    padding: 0.6rem 2.5rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    font-size: 15px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    font-weight: 750;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.show-btn:hover{
+    background: #665e59;
+    transform: 0.3s all ease-in;
+}
+
+@media screen and (max-width:960px){
+    .menu{
+        width: 100%;
+        position: relative;
+        display: block;
+        transition: 0.3s all ease-in-out;
+    }
+
+    .menu__container{
+        width: 100%;
+        position: relative;
+    }
+
+    .head__titles{
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .head__titles p{
+        position: relative;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .card-holder{
+        max-height: auto;
+        position: relative;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .card__read-more{
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    .shadow{
+        position: absolute;
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        margin-top: -6rem;
+        margin-left: -8rem;
+    }
+
+}

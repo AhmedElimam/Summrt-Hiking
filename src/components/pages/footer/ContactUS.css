@@ -1,0 +1,144 @@
+.conactus{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120vh;
+    max-height: 1800px;
+    background: #eabc82;
+}
+.conact-text{
+    color: #fff;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.conact-text p{
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4rem;
+    font-size: 15px;
+}
+.shape__last{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.email-setion{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    position: relative;
+}
+.email[placeholder]{
+    font-size: 12px;
+    padding-left: 1rem;
+}
+.email{
+    width: 33%;
+    position: relative;
+    height: 6vh;
+    max-height:70px ;
+    max-width: 500px;
+    border-radius: 5rem;
+    outline: none;
+    border-color: #fff;
+    box-shadow: none;
+    border: 1px solid #fff;
+}
+
+.subscrib{
+    color: #fff;
+    background: #5e5751;
+    border-radius:10rem ;
+    border: 1px solid #7f7770;
+    height: 7vh;
+    max-height: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    position: absolute;
+    width: 11%;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-left: 26rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.subscrib:hover{
+    background: #817973;
+    border: 1px solid #9b9188;
+    transition: 0.3s all ease-in;
+}
+
+
+
+
+@media screen and (max-width: 960px){
+    .conactus{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        display: block;
+    }
+    .shape__last{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .conact-text{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 5rem;
+        font-size: 16px;
+    }
+    .conact-text p{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+        justify-content: start;
+        text-align: start;
+        align-items: center;
+    }
+    .email-setion{
+        width: 100%;
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .email{
+        width: 70%;
+    }
+    .subscrib{
+        width: 32%;
+        height: 6vh;
+        font-size: 15px;
+        max-height: 35px;
+        margin: 0 auto;
+        display: block;
+        margin-top: 1rem;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

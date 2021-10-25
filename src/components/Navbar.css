@@ -1,0 +1,257 @@
+.navbar{
+    background: #ffffff;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0 0;
+    padding: 30px 40px;
+    z-index: 999;
+    transition: 0.4s ease;
+}
+
+.navbar.unactive{
+    background: #dfa762;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0 0;
+    padding: 30px 40px;
+    z-index: 999;
+    transition: 0.4s ease;
+}
+
+.navbar__container{
+    display: flex;
+    padding: 0 2rem;
+}
+.logo{
+    position: relative;
+    transition: 0.6s;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.logo img{
+    position: relative;
+    width: 34%;
+    display: flex;
+    top: 0;
+    left: 0;
+}
+
+.nav-meu{
+    position: absolute;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 auto;
+    right: 0 ;
+    margin-right: 7rem ;
+    margin-top: 5px;
+    letter-spacing: 2.2px;
+}
+
+.nav-item{
+    position: relative;
+    list-style: none;
+    padding: 13px;
+}
+
+.link-item,.link.active{
+    position: relative;
+    padding: 1rem;
+    right: 0;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ .link-item:hover{
+   color: #7f7770;
+   border-bottom: 2px solid #817b74;
+   transition: 0.3s all ease-in-out;
+   margin-left: 10px;
+}
+.link.active:hover{
+    color: #eee;
+    border-bottom: 2px solid #eee;
+    transition: 0.4s ease-out;
+    margin-left: 10px;
+}
+.scroll-active{
+    color: #eee;
+    border-bottom: 2px solid #eee;
+}
+.signup{
+    border: 1.5px solid #7f7770 ;
+    background: #7f7770;
+    border-radius: 20px;
+    padding: 7px;
+    box-shadow: none;
+    outline: none;
+    display: flex;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+
+.signup:hover{
+    color: #fff;
+    border: 1.5px solid #a59a90 ;
+    background: #a59a90;
+    outline: none;
+    box-shadow: none;
+    margin-left: 0;
+}
+.link.singup{
+    border: 1.5px solid #f5c080; ;
+    background: #f5c080;
+    border-radius: 20px;
+    padding: 7px;
+    box-shadow: none;
+    outline: none;
+    display: flex;
+    font-size: 13px;
+    color: #fff;
+}
+
+.link.singup:hover{
+    color: #fff;
+    border: 1.5px solid #f5b261;
+    background: #f5b261;
+    outline: none;
+    box-shadow: none;
+    margin-left: 0;
+}
+
+.menu-icon{
+    display: none;
+    
+}
+.FaTimesCircle{
+    color: #000;
+    transition: 0.3s all ease-in-out;
+ 
+}
+
+@media screen and (max-width:960px) {
+    .nav-meu{
+        display: none;
+    }
+
+    .navbar{
+        background: #fff;
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    .navbar.unactive{
+        background: #fff;
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    .scroll-active{
+        color: #7f7770;
+        border-bottom: 2px solid #817b74;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 90px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease !important;
+    }
+    .navbar__container{
+        display: flex;
+        padding: 0 2rem;
+    }
+    .nav-menu.active{
+        background: #fff;
+        left: 0;
+        opacity: 1;
+        transition: 0.6s all ease-in-out;
+        z-index: 1;
+    }
+    .nav-item{
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+    .link-item{
+        justify-content: center;
+        text-align: center;
+        margin-right: 9rem;
+        width: 100%;
+        margin-top: -3rem;
+    }
+    .nav-menu.link.active{
+        background: #fff;
+    }
+    .link.active{
+        background: #fff;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        margin-right: 9rem;
+        width: 100%;
+        margin-top: -4rem;
+    }
+    .logo{
+        width: 60%;
+        position: relative;
+        right: 2rem;
+    }
+   .menu-icon{
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: 0.3s all ease-in-out;
+    transform: translate( -300%, 80%);
+    font-size: 2.4rem;
+    cursor: pointer;
+   }
+   .CgMenuRound{
+       transition: 0.3s all ease-in-out;
+   }
+   .signup{
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       width: 50%;
+       display: inline-block;
+   }
+
+   .link.singup{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    display: inline-block;
+    border: 1.5px solid #7f7770 ;
+    background: #7f7770;
+    color: #fff;
+   }
+    
+}
